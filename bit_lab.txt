@@ -1,0 +1,39 @@
+git init
+git clone htpps
+cd bitgit
+git status
+git add ex.txt
+git commit -m "afd"
+git checkout -b feature
+git branch feature 
+git checkout feature
+git remote add origin htt
+git push origin feature
+git checkout main
+git pull origin main
+
+git pull origin main	Get the latest changes from GitHub + merge them
+git push origin main	Upload your new commits to GitHub
+
+| Command                   | Meaning                                 |
+| ------------------------- | --------------------------------------- |
+| `git checkout feature`    | Switch to the existing `feature` branch |
+| `git checkout -b feature` | Create a new branch + switch to it      |
+| `git branch`              | List all branches                       |
+
+Switch my working directory to the branch named feature.
+
+
+To work on new features without breaking the main project
+
+Imagine you have a stable project on the main branch.
+
+WHY do we "merge" branches?
+
+Because once your work is:
+
+✔ Finished
+✔ Tested
+✔ Working properly
+
+You want it back into the main project.
